@@ -12,6 +12,6 @@ class MainActivity : AppCompatActivity() {
 
 //        인터넷에 있는 이미지를 이미지뷰에 바로 대입
 
-        Glide.with(this).load("https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png\uFEFF").into(GoogleImg)
+        Glide.with(this).load("https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png").into(GoogleImg)
     }
 }
